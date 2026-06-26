@@ -1,0 +1,21 @@
+# ==========================================
+# FinansDuyguAI Monorepo GitIgnore Yapılandırması
+# ==========================================
+
+# --- Backend (.NET) Engellenecekler ---
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/appsettings.Development.json
+
+# --- Frontend (Node/React) Engellenecekler ---
+**/node_modules/
+**/dist/
+**/build/
+**/.env
+
+# --- AI / Python Engellenecekler ---
+**/__pycache__/
+**/venv/
+**/.venv/
